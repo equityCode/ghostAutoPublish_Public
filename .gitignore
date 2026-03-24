@@ -43,3 +43,6 @@ data/
 .idea/
 *.swp
 *.swo
+
+# Internal technical specs not intended for public release
+autoPostNode-technical-specs.md

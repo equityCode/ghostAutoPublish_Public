@@ -1,0 +1,26 @@
+{
+  "name": "ghostautopublish",
+  "version": "1.0.0",
+  "description": "Local Node.js utility to auto-publish Gemini-generated SEO blog posts to a Ghost site via the Ghost Admin API.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test:gemini": "node src/test-gemini.js",
+    "setup": "node src/setup.js",
+    "admin": "node src/admin-ui.js"
+  },
+  "keywords": [
+    "ghost",
+    "gemini",
+    "automation",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.15",
+    "dotenv": "^16.4.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
